@@ -15,7 +15,7 @@ public class MultiCatch {
             System.out.println("Enter the second number: ");
             int2 = sc.nextInt();
 
-            float quotient = int1 / int2;
+            float quotient = (float) int1 / int2;
             System.out.println(int1 + " / " + int2 + " = " + quotient);
         }
         catch (ArithmeticException ex) {
